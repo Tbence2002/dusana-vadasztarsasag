@@ -7,7 +7,7 @@
 }
 .quiz-content {
     background: #fff;
-    width: 90%;
+    width: 70%;
     height: 100%;
     margin: 0 auto;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -92,6 +92,11 @@
     cursor: pointer;
     transform: scale(1.1);
     transition: .3s;
+}
+@media(max-width:1331px) {
+    .quiz-content {
+        width: 90%;
+    }
 }
 @media(max-width:514px) {
     .quiz-content {
