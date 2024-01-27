@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import "./Navbar.css";
 import { RiMenu4Fill } from 'react-icons/ri';
-import { GrClose } from 'react-icons/gr';
+import { IoIosCloseCircle } from "react-icons/io";
 
 function Navbar() {
     const [menu, setMenu] = useState(false);
@@ -20,7 +20,7 @@ function Navbar() {
                     <i className='open' onClick={() => setMenu(!menu)}><RiMenu4Fill /></i>
                     <nav>
                         <ul className={menu ? "shownavbar" : ""}>
-                            <i className="close" onClick={() => setMenu(!menu)}><GrClose /></i>
+                            <IoIosCloseCircle className="close" onClick={() => setMenu(!menu)}/>
                             <li onClick={()=> setMenu(false)}><Link to="/">Kezdőlap</Link></li>
                             <li onClick={()=> setMenu(false)}><Link to="/Quiz">Quiz</Link></li>
                             <li onClick={()=> setMenu(false)}><Link to="/Galeria">Galéria</Link></li>
