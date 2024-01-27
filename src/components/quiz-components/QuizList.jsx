@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { quizlist } from './QuizQuestions'
+import {motion} from 'framer-motion'
 
 function QuizList() {
     const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -25,7 +26,15 @@ function QuizList() {
     }
 
     return (
-        <div className='quiz-container'>
+        <motion.div className='quiz-container'
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false }}
+        transition={{ duration: 0.3 }}
+        variants={{
+            visible: { opacity: 1, scale: 1 },
+            hidden: { opacity: 0, scale: 0 }
+        }}>
             <h2>Vadász Quiz</h2>
             <div className="quiz-content">
                 {showScore ?
@@ -44,7 +53,7 @@ function QuizList() {
                 }
 
             </div>
-        </div>
+        </motion.div>
     )
 }
 
