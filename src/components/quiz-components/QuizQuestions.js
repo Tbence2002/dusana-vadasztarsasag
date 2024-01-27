@@ -270,7 +270,7 @@ export const quizlist = [
         ],
     },
     {
-        id: 15,
+        id: 16,
         question: "Melyik réce faj vadászható?",
         answers: [
              {
