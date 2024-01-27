@@ -62,6 +62,9 @@ nav ul li a:hover:before {
 .close:hover , .open:hover {
     cursor: pointer;
 }
+.close {
+    display: none;
+}
 @media(max-width:777px){
     header {
         justify-content: space-between;
@@ -70,7 +73,7 @@ nav ul li a:hover:before {
         display: block;
     }
     nav ul {
-        background: #394867;
+        background: #1B2223;
         position: absolute;
         top:0;
         transform: translateY(-120%);
@@ -83,11 +86,27 @@ nav ul li a:hover:before {
         height: 100vh;
         gap:2rem;
         z-index: 1111;
+        animation: 0.0001s menu forwards;
+    }
+    @keyframes menu {
+        0% {
+            display: none;
+        }
+        100% {
+            display: flex;
+        }
     }
     nav ul li a {
         color:white;
     }
     ul i {
         color:white;
+    }
+    .close {
+        display: block;
+        font-size: 2rem;
+        color: white;
+        margin-left: auto;
+        margin-right: 2rem;
     }
 }
