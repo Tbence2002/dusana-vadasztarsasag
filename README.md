@@ -10,7 +10,7 @@ React, CSS, Framer-motion, Firebase
 
 # Adatok 
 Az adatokat (hírek, tagok) adatbázisból kapjuk meg, amelyeket admin oldalról lehet kezelni (közzétenni, törölni).
-A backend nem általam készült, egy Backendes barátom írta meg Spring nyelvben.
+A projektben ugyanaz a backend lett felhasználva, mint a patak-párlat projektünkben.
 
 # Galéria
 A galéria képeit Firebase-ben tárolom, amit admin oldalról lehetséges feltölteni, illetve törölni.
