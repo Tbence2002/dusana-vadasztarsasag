@@ -2,9 +2,6 @@
 A projektet személyes gyakorlásként készítettem, amelyben be tudom mutatni jelenlegi tudásom egy részét.
 Megvalósítás során törekedtem, hogy üzletileg is rendben legyen a kód.
 
-# SEO
-A kialakításkor figyelembe vettem a keresőoptimalizálást, ezért a weboldal SEO-t is tartalmaz google analitikával karöltve.
-
 # Technológiák
 React, CSS, Framer-motion, Firebase
 
