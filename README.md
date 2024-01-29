@@ -1,13 +1,13 @@
 # A projektről
 A projektet személyes gyakorlásként készítettem, amelyben be tudom mutatni jelenlegi tudásom egy részét.
 Megvalósítás során törekedtem, hogy üzletileg is rendben legyen a kód.
+A weboldal csapatmunkaként jött létre, melyben segítségemre volt egy Backend fejlesztő, hogy a feltöltött adatokat (hírek, tagok, bejelentkezés) megfelelő biztonsággal tudjam tárolni.
 
 # Technológiák
-React, CSS, Framer-motion, Firebase
+React, CSS, Framer-motion, Firebase, Spring, MySQL.
 
 # Adatok 
 Az adatokat (hírek, tagok) adatbázisból kapjuk meg, amelyeket admin oldalról lehet kezelni (közzétenni, törölni).
-A projektben ugyanaz a backend lett felhasználva, mint a patak-párlat projektünkben.
 
 # Galéria
 A galéria képeit Firebase-ben tárolom, amit admin oldalról lehetséges feltölteni, illetve törölni.
