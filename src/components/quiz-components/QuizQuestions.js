@@ -249,7 +249,7 @@ export const quizlist = [
     },
     {
         id: 15,
-        question: "Melyik fokozottan védett maradunk?",
+        question: "Melyik fokozottan védett madarunk?",
         answers: [
              {
                 answer: "Túzok",
