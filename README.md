@@ -1,7 +1,7 @@
 # A projektről
 A projektet személyes gyakorlásként készítettem, amelyben be tudom mutatni jelenlegi tudásom egy részét.
 Megvalósítás során törekedtem, hogy üzletileg is rendben legyen a kód.
-A weboldal csapatmunkaként jött létre, melyben segítségemre volt egy Backend fejlesztő, hogy a feltöltött adatokat (hírek, tagok, bejelentkezés) megfelelő biztonsággal tudjam tárolni.
+A weboldal csapatmunkaként jött létre, melyben segítségemre volt egy Backend fejlesztő, hogy a feltöltött adatokat (hírek, tagok, admin oldali bejelentkezés) megfelelő biztonsággal tudjam tárolni.
 
 # Technológiák
 React, CSS, Framer-motion, Firebase, Spring, MySQL.
